@@ -1,0 +1,326 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#mainnav{
+  
+}
+.main{
+    width: 100%;
+    height: auto;
+    min-height: 92vh;
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(223, 223, 223);
+}
+.main1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.main2{
+  background-image: linear-gradient(
+    -225deg,
+    #007a14 0%,
+    #00546b 29%,
+    #00bdc4 67%,
+    #000000 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2.5s linear infinite;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.main3{
+    width: 350px;
+    border-radius: 50%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.main4{
+    margin-top: 30px;
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 0;
+}
+.skills{
+  text-align: center;
+  height: auto;
+  background-color: rgb(223, 223, 223);
+  padding-top: 20px;
+}
+.skill2{
+  display: grid;
+  grid-template-columns: repeat(4,auto);
+  grid-template-rows: repeat(2,auto);
+  width: 40%;
+  margin: auto;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+.skill2>div{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  text-align: center;
+  font-style: italic;
+  width: 130px;
+  height: 120px;
+  padding: 10px;
+}
+
+.skill2>div:hover{
+  box-shadow: rgba(0, 255, 55, 0.16) 0px 1px 4px, rgb(0, 206, 27) 0px 0px 0px 3px;
+}
+
+.skill2>div>img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 64px;
+  width: 64px;
+}
+.skill1{
+  font-size: 30px;
+  font-weight: 500;
+}
+.proj{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  height: auto;
+  width: 50%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.proj>div{
+  width: 100%;
+}
+.proj>div>img{
+  width: 100%;
+}
+.projdesc{
+  padding: 20px;
+}
+.buttons{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.buttons>a{
+  background-color: #000000;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0 10px 0 10px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.projects,.contact{
+  padding: 20px;
+  background-color: rgb(223, 223, 223);
+}
+.skill2>div>img,.skill2>div>p{
+  cursor: pointer;
+}
+.footer{
+  margin-bottom: 0;
+  padding-bottom: 0;
+  text-decoration: dotted underline;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1300px){
+  .skill2{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(2,auto);
+    width: 55%;
+    margin: auto;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
+  .skill2>div{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    text-align: center;
+    font-style: italic;
+    width: 130px;
+    height: 120px;
+    padding: 10px;
+  }
+
+}
+@media only screen and (min-width: 851px) and (max-width: 990px){
+  .skill2{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(2,auto);
+    width: 65%;
+    margin: auto;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
+  .skill2>div{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    text-align: center;
+    font-style: italic;
+    width: 130px;
+    height: 120px;
+    padding: 10px;
+  }
+  .proj{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    height: auto;
+    width: 65%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 651px) and (max-width: 850px){
+  .skill2{
+    width: 80%;
+  }
+  .skill2>div{
+    width: 110px;
+    height: 100px;
+    padding: 10px;
+  }
+  .proj{
+    width: 75%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .main1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.main2{
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.main3{
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.main4{
+    margin-top: 30px;
+    font-size: 18px;
+}
+.skill1{
+  font-size: 25px;
+  font-weight: 500;
+}
+}
+
+@media only screen and (min-width: 501px) and (max-width: 650px){
+  .skill2{
+    width: 95%;
+  }
+  .skill2>div{
+    width: 90px;
+    height: 80px;
+    padding: 10px;
+    font-size: 12px;
+  }
+  .skill2>div>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 44px;
+    width: 44px;
+  }
+  .proj{
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .main1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.main2{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.main3{
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.main4{
+    margin-top: 30px;
+    font-size: 16px;
+}
+.skill1{
+  font-size: 25px;
+  font-weight: 500;
+}
+}
+
+
+@media only screen and (min-width: 50px) and (max-width: 500px){
+  .skill2{
+    width: 98%;
+  }
+  .skill2>div{
+    width: 60px;
+    height: 60px;
+    padding: 2px;
+    font-size: 10px;
+  }
+  .skill2>div>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 38px;
+    width: 38px;
+  }
+  .proj{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .main1{
+    font-size: 30px;
+    font-weight: 600;
+}
+.main2{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.main3{
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.main4{
+    margin-top: 30px;
+    font-size: 16px;
+}
+.skill1{
+  font-size: 20px;
+  font-weight: 500;
+}
+}
