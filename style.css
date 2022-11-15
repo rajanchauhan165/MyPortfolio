@@ -14,7 +14,13 @@ body{
     min-height: 92vh;
     text-align: center;
     padding: 60px;
-    background-color: rgb(223, 223, 223);
+    /* background-color: rgb(223, 223, 223); */
+
+    background-image: url("/images/unsplash2.jpg");
+  background-size: 100%;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .row{
@@ -31,7 +37,7 @@ body{
     #007a14 0%,
     #00546b 29%,
     #00bdc4 67%,
-    #ff0000 100%
+    #ffffff 100%
   );
   background-size: 200% auto;
   -webkit-background-clip: text;
