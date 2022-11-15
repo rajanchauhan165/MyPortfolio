@@ -16,7 +16,7 @@ body{
     padding: 60px;
     /* background-color: rgb(223, 223, 223); */
 
-    background-image: url("/images/unsplash2.jpg");
+    background-image: url("images/unsplash2.jpg");
   background-size: 100%;
   background-color: transparent;
   background-repeat: no-repeat;
