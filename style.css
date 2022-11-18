@@ -385,9 +385,12 @@ body{
 
 @media only screen and (min-width: 50px) and (max-width: 500px){
   .skill2{
+    /* border: 1px solid red; */
     width: 98%;
   }
   .skill2>div{
+    margin: auto;
+   
     width: 60px;
     height: 60px;
     padding: 2px;
@@ -442,7 +445,8 @@ body{
 }
 .main4{
     margin-top: 30px;
-    font-size: 20px;
+    font-size: 18px;
+    /* border: 1px solid red; */
 }
 .skill1{
   font-size: 20px;
