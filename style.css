@@ -22,7 +22,24 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+.rbutton{
+  border: 2px solid rgb(228, 226, 226);
+  border-radius: 10px;
+  width: 160px;
+  margin: auto;
+  margin-top: 20px;
+  font-weight: 600;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
+.rbutton>a{
+  color: white;
+  text-decoration: none;
+}
 .row{
   border: 1px solid red;
 }
@@ -384,6 +401,19 @@ body{
 
 
 @media only screen and (min-width: 50px) and (max-width: 500px){
+  .rbutton{
+    border: 2px solid rgb(228, 226, 226);
+    border-radius: 10px;
+    width: 120px;
+    margin: auto;
+    margin-top: 20px;
+    font-weight: 600;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
   .skill2{
     /* border: 1px solid red; */
     width: 98%;
